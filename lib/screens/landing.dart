@@ -3,8 +3,8 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_sign_in/google_sign_in.dart';
-import 'package:semo/screens/fragments.dart';
-import 'package:semo/utils/spinner.dart';
+import 'package:index/screens/fragments.dart';
+import 'package:index/utils/spinner.dart';
 import 'package:swipeable_page_route/swipeable_page_route.dart';
 import 'package:video_player/video_player.dart';
 

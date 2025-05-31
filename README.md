@@ -1,8 +1,8 @@
-# Semo
+# Index
 
-![Semo Screenshots](https://raw.githubusercontent.com/moses-mbaga/semo/d4ed0519764b78d729cc459476086928d0a2d54b/banner.png)
+![Index Screenshots](https://raw.githubusercontent.com/moses-mbaga/semo/d4ed0519764b78d729cc459476086928d0a2d54b/banner.png)
 
-Semo is an open-source Flutter application designed to offer a seamless movie and TV show streaming experience. With support for multiple streaming servers, synced watch progress, and fully customizable subtitles, Semo aims to be your go-to streaming app for enjoying your favorite content.
+Index is an open-source Flutter application designed to offer a seamless movie and TV show streaming experience. With support for multiple streaming servers, synced watch progress, and fully customizable subtitles, Index aims to be your go-to streaming app for enjoying your favorite content.
 
 ## Features
 
@@ -78,4 +78,4 @@ flutter run
 
 If you encounter any issues or have suggestions, please open an issue in the [GitHub Issues](https://github.com/moses-mbaga/semo/issues) section.
 
-Enjoy streaming with Semo! 🌟
+Enjoy streaming with Index! 🌟

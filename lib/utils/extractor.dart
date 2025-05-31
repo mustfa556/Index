@@ -1,15 +1,15 @@
 import 'dart:math';
 
 import 'package:flutter/foundation.dart';
-import 'package:semo/models/movie.dart';
-import 'package:semo/models/server.dart';
-import 'package:semo/models/stream.dart';
-import 'package:semo/models/tv_show.dart';
-import 'package:semo/utils/extractors/auto_embed.dart';
-import 'package:semo/utils/extractors/embedsu.dart';
-import 'package:semo/utils/extractors/kisskh.dart';
-import 'package:semo/utils/extractors/rive_stream.dart';
-import 'package:semo/utils/preferences.dart';
+import 'package:index/models/movie.dart';
+import 'package:index/models/server.dart';
+import 'package:index/models/stream.dart';
+import 'package:index/models/tv_show.dart';
+import 'package:index/utils/extractors/auto_embed.dart';
+import 'package:index/utils/extractors/embedsu.dart';
+import 'package:index/utils/extractors/kisskh.dart';
+import 'package:index/utils/extractors/rive_stream.dart';
+import 'package:index/utils/preferences.dart';
 
 class Extractor {
   static List<Server> servers = [

@@ -5,16 +5,16 @@ import 'package:firebase_crashlytics/firebase_crashlytics.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/foundation.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:semo/firebase_options.dart';
-import 'package:semo/screens/splash.dart';
-import 'package:semo/utils/preferences.dart';
+import 'package:index/firebase_options.dart';
+import 'package:index/screens/splash.dart';
+import 'package:index/utils/preferences.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   GoogleFonts.config.allowRuntimeFetching = false;
   await Preferences.init();
   await initializeFirebase();
-  runApp(Semo());
+  runApp(Index());
 }
 
 initializeFirebase() async {
@@ -31,13 +31,13 @@ initializeFirebase() async {
   });
 }
 
-class Semo extends StatelessWidget {
-  const Semo({super.key});
+class Index extends StatelessWidget {
+  const Index({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Semo',
+      title: 'Index',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         useMaterial3: true,

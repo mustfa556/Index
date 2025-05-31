@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'dart:async';
 import 'package:http/http.dart' as http;
-import 'package:semo/models/stream.dart';
+import 'package:index/models/stream.dart';
 
 class Whvx {
   final List<Map<String, String>> servers = [

@@ -7,12 +7,12 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:semo/models/duration_state.dart';
-import 'package:semo/models/stream.dart';
-import 'package:semo/utils/db_names.dart';
-import 'package:semo/utils/enums.dart';
-import 'package:semo/utils/preferences.dart';
-import 'package:semo/models/subtitle_style.dart' as local;
+import 'package:index/models/duration_state.dart';
+import 'package:index/models/stream.dart';
+import 'package:index/utils/db_names.dart';
+import 'package:index/utils/enums.dart';
+import 'package:index/utils/preferences.dart';
+import 'package:index/models/subtitle_style.dart' as local;
 import 'package:subtitle_wrapper_package/subtitle_wrapper_package.dart';
 import 'package:swipeable_page_route/swipeable_page_route.dart';
 import 'package:video_player/video_player.dart';
@@ -189,7 +189,7 @@ class _PlayerState extends State<Player> with TickerProviderStateMixin {
       borderStyle: SubtitleBorderStyle(
         strokeWidth: localSubtitlesStyle.borderStyle.strokeWidth,
         style: localSubtitlesStyle.borderStyle.style,
-        color: local.SubtitleStyle.colors[localSubtitlesStyle.borderStyle.color]!,
+        color: local.Subtitle.Style.colors[localSubtitlesStyle.borderStyle.color]!,
       ),
     );
     setState(() => _subtitleStyle = subtitleStyle);

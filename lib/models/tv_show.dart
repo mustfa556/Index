@@ -1,5 +1,5 @@
-import 'package:semo/models/genre.dart';
-import 'package:semo/models/person.dart';
+import 'package:index/models/genre.dart';
+import 'package:index/models/person.dart';
 
 class TvShow {
   bool adult;

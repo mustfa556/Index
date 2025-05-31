@@ -3,8 +3,8 @@ import 'dart:io';
 import 'package:firebase_analytics/firebase_analytics.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_settings_ui/flutter_settings_ui.dart';
-import 'package:semo/models/subtitle_style.dart';
-import 'package:semo/utils/preferences.dart';
+import 'package:index/models/subtitle_style.dart';
+import 'package:index/utils/preferences.dart';
 import 'package:swipeable_page_route/swipeable_page_route.dart';
 
 class SubtitlesPreferences extends StatefulWidget {

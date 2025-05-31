@@ -3,14 +3,14 @@ import 'dart:async';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:internet_connection_checker_plus/internet_connection_checker_plus.dart';
-import 'package:semo/screens/favorites.dart';
-import 'package:semo/screens/landing.dart';
-import 'package:semo/models/navigation_page.dart';
-import 'package:semo/screens/movies.dart';
-import 'package:semo/screens/search.dart';
-import 'package:semo/screens/settings.dart';
-import 'package:semo/screens/tv_shows.dart';
-import 'package:semo/utils/enums.dart';
+import 'package:index/screens/favorites.dart';
+import 'package:index/screens/landing.dart';
+import 'package:index/models/navigation_page.dart';
+import 'package:index/screens/movies.dart';
+import 'package:index/screens/search.dart';
+import 'package:index/screens/settings.dart';
+import 'package:index/screens/tv_shows.dart';
+import 'package:index/utils/enums.dart';
 import 'package:swipeable_page_route/swipeable_page_route.dart';
 
 //ignore: must_be_immutable

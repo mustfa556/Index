@@ -1,6 +1,6 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
-import 'package:semo/models/stream.dart';
+import 'package:index/models/stream.dart';
 
 class KissKh {
   final String baseUrl = 'https://kisskh.co';
