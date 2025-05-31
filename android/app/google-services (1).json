@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "7077618899",
+    "project_id": "index-65283",
+    "storage_bucket": "index-65283.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:7077618899:android:7c287e0da8a16a206e2026",
+        "android_client_info": {
+          "package_name": "net.examnet.index"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBiPe_xOwLoSPaFZEOtVGlwYBOdDM8vRI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
